@@ -1,0 +1,40 @@
+.Slider {
+    font-family: Arial, sans-serif;
+    text-align: center;
+   }
+   
+   .slider {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+   }
+   
+   .slide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   }
+   
+   .slider-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+   }
+   
+   .slide-button {
+    background-color: transparent;
+    border: none;
+    color: #ccc;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+   }
+   
+   .slide-button:hover,
+   .slide-button.active {
+    color: #000;
+   }

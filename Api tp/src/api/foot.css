@@ -1,0 +1,23 @@
+
+.league{
+    background-color: #F9F9F9;
+    border: 2px solid #6d6c6c4e;
+    border-bottom: none;
+    border-radius: 6px;
+}
+.league img {
+    width: 5%;
+    height: 5%;
+}
+.league span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.matches {
+    border: 2px solid #F9F9F9;
+    border-radius: 2px;
+}
+hr{
+    border-color: #6d6c6c4e;
+    border-width: 2px;
+}

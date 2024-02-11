@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .fixture-info {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 0;
+    color: #555;
+  }
+
+  .score-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .home-team,
+  .away-team {
+    flex: 1;
+  }
+
+  .home-team h5,
+  .away-team h5 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+
+  .home-team p,
+  .away-team p {
+    color: #555;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+  }

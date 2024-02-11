@@ -1,0 +1,120 @@
+.leagueNameName{
+    background-color: #F9F9F9;
+    border: 2px solid #6d6c6c4e;
+    border-bottom: none;
+    border-radius: 16px;
+}
+
+.leagueName span {
+    font-size: 18px;
+    font-weight: 500;
+}
+.matches {
+	max-width: 100%;
+    border: 2px solid #F9F9F9;
+    border-radius: 22px;
+	background-color: rgb(197, 195, 195);
+}
+hr{
+    border-color: #6d6c6c4e;
+    border-width: 2px;
+}
+.matches .row:hover{
+    background-color: #eeeeeebd;
+    border-radius: 20px;
+    padding: 10px;
+   cursor: pointer;
+}
+
+body{
+	background-color: #414141;
+}
+
+/* for the header  */
+
+
+.navbar {
+	background: #080808;
+	color: #fff;
+	padding: 15px;
+	width: 100%;
+	height: 90px;
+	
+	display: flex;
+	align-items: center;
+}
+
+.navbar .logo {
+	cursor: pointer;
+	font-family: Lacquer;
+    color: #ffc600;
+}
+.navbar ul.links {
+	margin-left: auto;
+	margin-right: 50px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	transition: 0.4s ease all, 0s ease ;	
+	li {
+		text-transform: uppercase;
+		padding: 0 15px;
+		height: 65px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		transition: 0.4s ease all, 0s ease margin;
+		
+		a {
+			text-decoration: none;
+			color: #fff;
+		}
+		
+		&:hover {
+			background: #ffc600;
+			cursor: pointer;
+            border-radius: 40%;
+            transition: ease-in-out 0.5s;
+            padding: 30px;
+			
+			a {
+				color: #080808;
+			}
+			
+		}
+		
+		
+	}
+	
+}
+
+
+button {
+	background: #ffc600;
+	outline: none;
+	font-weight: bold;
+	padding: 10px 18px;
+	border-radius: 25px;
+	border: 1px solid darken(#ffc600,5%);
+	letter-spacing: 1px;
+	
+	
+	&:hover {
+		cursor: pointer;
+		transform: scale(1.2);
+		color: white;
+		background: lighten(#080808,10%);
+		border-color: darken(#080808,5%);
+	}	
+}
+footer {
+    background-color: #eee;
+    color: #333 ;
+    width: 100%;
+    height: 90px;
+}
+ul i:hover{
+			cursor: pointer;
+}
